@@ -14,7 +14,9 @@ git clone git://github.com/tpope/vim-unimpaired.git bundle/vim-unimpaired
 hg clone https://bitbucket.org/agr/ropevim bundle/ropevim
 git clone https://github.com/Lokaltog/vim-easymotion.git bundle/vim-easymotion
 git clone https://github.com/othree/xml.vim.git bundle/xml.vim
-git clone https://github.com/vim-scripts/AutoClose.git bundle/AutoClose
+git clone https://github.com/Raimondi/delimitMate.git bundle/delimitMate
+git clone https://github.com/vim-scripts/Jinja.git bundle/Jinja
+git clone https://github.com/msanders/snipmate.vim.git bundle/snipmate.vim
 
 # pathogen
 mkdir -p autoload

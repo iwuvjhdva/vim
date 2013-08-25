@@ -91,9 +91,9 @@ set guioptions-=r  "remove right-hand scroll bar
 set guifont=Monospace\ 12
 set clipboard=unnamedplus
 
-if has("gui_running") 
-    set spell spelllang=en_us
-endif
+"if has("gui_running") 
+"    set spell spelllang=en_us
+"endif
 
 set paste
 
@@ -146,7 +146,7 @@ nnoremap <C-c>r :RopeRename<CR>
 " ropevim auto complete
 let ropevim_vim_completion = 1
 let ropevim_extended_complete = 1
-let g:ropevim_autoimport_modules = ["os","transaction","random","hashlib","datetime","decimal","shutil","traceback","django","pyramid.*","selenium.*","lxml","lxml.etree"]
+let g:ropevim_autoimport_modules = ["os","transaction","random","hashlib","datetime","decimal","shutil","traceback","flask.*","django","pyramid.*","selenium.*","lxml","lxml.etree"]
 
 " syntastic
 let g:syntastic_check_on_open = 1
@@ -155,10 +155,6 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_python_checkers=['flake8']
 let g:syntastic_python_flake8_exe='/usr/local/bin/flake8'
 " let g:syntastic_python_pyflakes_exe = "~/installed/python/sandbox/bin/pyflakes"
-
-let s:default_includes = [ '.', '..', '/usr/lib/gcc/i486-linux-gnu/4.7/include',
-    \ '/usr/local/include', '/usr/lib/gcc/i486-linux-gnu/4.7/include-fixed',
-    \ '/usr/include/i386-linux-gnu', '/usr/include', '/usr/include/qt4/QtCore' ]
 
 cmap E<CR> Explore<CR>
 
@@ -181,3 +177,6 @@ nnoremap <silent> tu :TlistUpdate<CR>
 
 " EasyMotion
 let g:EasyMotion_leader_key = '<M-w>'
+
+" CtrlP
+let g:ctrlp_working_path_mode = 0
