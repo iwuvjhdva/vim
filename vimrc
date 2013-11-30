@@ -32,6 +32,7 @@ endif
 " Pathogen load
 filetype off
 
+set nocp
 call pathogen#infect()
 call pathogen#helptags()
 
@@ -181,3 +182,6 @@ nnoremap <silent> tu :TlistUpdate<CR>
 
 " EasyMotion
 let g:EasyMotion_leader_key = '<M-w>'
+
+" YouCompleteMe
+let g:ycm_key_list_select_completion = ['<Enter>', '<Down>']
