@@ -17,6 +17,7 @@ git clone https://github.com/othree/xml.vim.git bundle/xml.vim
 git clone https://github.com/Raimondi/delimitMate.git bundle/delimitMate
 git clone https://github.com/vim-scripts/Jinja.git bundle/Jinja
 git clone https://github.com/msanders/snipmate.vim.git bundle/snipmate.vim
+git clone https://github.com/xolox/vim-misc.git bundle/vim-misc
 
 # pathogen
 mkdir -p autoload
