@@ -3,7 +3,6 @@
 git clone https://github.com/hynek/vim-python-pep8-indent.git bundle/vim-python-pep8-indent
 git clone https://github.com/vim-scripts/django.vim.git bundle/django.vim
 git clone https://github.com/xolox/vim-notes.git bundle/notes
-git clone https://github.com/hrp/EnhancedCommentify.git bundle/EnhancedCommentify
 git clone https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
 git clone https://github.com/scrooloose/syntastic.git bundle/syntastic.git
 git clone https://github.com/vim-scripts/taglist.vim.git bundle/taglist.vim
@@ -20,6 +19,7 @@ git clone https://github.com/msanders/snipmate.vim.git bundle/snipmate.vim
 git clone https://github.com/xolox/vim-misc.git bundle/vim-misc
 git clone https://github.com/kchmck/vim-coffee-script.git bundle/vim-coffee-script
 git clone https://github.com/tpope/vim-haml.git bundle/vim-haml
+git clone https://github.com/tomtom/tcomment_vim.git bundle/tcomment
 
 # pathogen
 mkdir -p autoload
