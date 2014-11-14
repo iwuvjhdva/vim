@@ -155,7 +155,6 @@ let g:syntastic_check_on_open = 1
 
 let g:syntastic_python_checkers=['flake8']
 let g:syntastic_python_flake8_exe='/usr/local/bin/flake8'
-" let g:syntastic_python_pyflakes_exe = "~/installed/python/sandbox/bin/pyflakes"
 
 cmap E<CR> Explore<CR>
 
@@ -181,6 +180,7 @@ let g:EasyMotion_leader_key = '<M-w>'
 
 " CtrlP
 let g:ctrlp_working_path_mode = 0
+let g:ctrlp_custom_ignore = 'node_modules\|src/bower_components'
 
 " YouCompleteMe
 let g:ycm_key_list_select_completion = ['<Enter>', '<Down>']

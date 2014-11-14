@@ -19,6 +19,7 @@ git clone https://github.com/vim-scripts/Jinja.git bundle/Jinja
 git clone https://github.com/msanders/snipmate.vim.git bundle/snipmate.vim
 git clone https://github.com/xolox/vim-misc.git bundle/vim-misc
 git clone https://github.com/kchmck/vim-coffee-script.git bundle/vim-coffee-script
+git clone https://github.com/tpope/vim-haml.git bundle/vim-haml
 
 # pathogen
 mkdir -p autoload
