@@ -181,6 +181,7 @@ let g:EasyMotion_leader_key = '<M-w>'
 
 " CtrlP
 let g:ctrlp_working_path_mode = 0
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|bower_components'
 
 " YouCompleteMe
 let g:ycm_key_list_select_completion = ['<Enter>', '<Down>']

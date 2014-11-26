@@ -23,7 +23,7 @@ mkdir -p autoload
 curl -so autoload/pathogen.vim https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 
 # notes
-git clone git@hooky.ru:notes.git bundle/notes/misc/notes/user
+#git clone git@hooky.ru:notes.git bundle/notes/misc/notes/user
 
 
 # ropevim
