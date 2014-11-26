@@ -20,6 +20,7 @@ git clone https://github.com/kchmck/vim-coffee-script.git bundle/vim-coffee-scri
 git clone https://github.com/python-rope/ropevim bundle/ropevim
 git clone https://github.com/tpope/vim-haml.git bundle/vim-haml
 git clone https://github.com/tomtom/tcomment_vim.git bundle/tcomment
+git clone https://github.com/editorconfig/editorconfig-vim.git bundle/editorconfig-vim
 
 # pathogen
 mkdir -p autoload
