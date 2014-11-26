@@ -122,7 +122,7 @@ map <F5> <Esc>:w<CR>:!python %:p<CR>
 " au QuickFixCmdPost make cwindow
 
 " Find and display all TODOs
-command TODO :noautocmd vimgrep /TODO/ **/*.py **/*.js **/*.pt **/*.html **/*.css | :cw
+command! TODO :noautocmd vimgrep /TODO/ **/*.py **/*.js **/*.pt **/*.html **/*.css | :cw
 
 " Tabs bindings
 nnoremap <M-t>n :tabnew<CR>
@@ -138,7 +138,7 @@ nnoremap <silent> <A-Left> :execute 'silent! tabmove ' . (tabpagenr()-2)<CR>
 nnoremap <silent> <A-Right> :execute 'silent! tabmove ' . tabpagenr()<CR>
 
 " Loading plugins
-source ~/.vim/bundle/ropevim/ropevim.vim
+source ~/.vim/bundle/ropevim/plugin/ropevim.vim
 
 " ropevim key shortcuts
 nnoremap <C-c>i :RopeAutoImport<CR>
@@ -155,7 +155,6 @@ let g:syntastic_check_on_open = 1
 
 let g:syntastic_python_checkers=['flake8']
 let g:syntastic_python_flake8_exe='/usr/local/bin/flake8'
-" let g:syntastic_python_pyflakes_exe = "~/installed/python/sandbox/bin/pyflakes"
 
 cmap E<CR> Explore<CR>
 
